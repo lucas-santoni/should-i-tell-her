@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Merriweather:900&display=swap');
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20vh 1vh 0 1vh;
+}
+
+.question, .explanations {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3vh;
+  line-height: 0.5em;
+}
+
+.yes {
+  font-family: 'Merriweather', serif;
+  font-size: 12vh;
+  line-height: 0.2em;
+  color: #ff1744;
+  animation: blinker 0.7s step-end infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
